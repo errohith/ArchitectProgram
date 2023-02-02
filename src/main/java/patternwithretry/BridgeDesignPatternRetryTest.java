@@ -1,4 +1,4 @@
-package pattern;
+package patternwithretry;
 
 import org.testng.annotations.Test;
 
