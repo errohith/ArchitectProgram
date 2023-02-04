@@ -27,7 +27,6 @@ public class BridgeDesignPatternRetryTest {
 		engine.type("//input[@id='createLeadForm_primaryEmail']", "Group@testleaf.com");
 		engine.click("//input[@name='submitButton']");
 		System.out.println(engine.getText("//span[@id='viewLead_companyName_sp']"));
-		
 		engine.close();		
 		
 	}

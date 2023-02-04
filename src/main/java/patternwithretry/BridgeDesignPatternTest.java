@@ -29,7 +29,7 @@ public class BridgeDesignPatternTest {
 		engine.click("//a[text()='Create Lead']");
 		engine.type("//input[@id='createLeadForm_companyName']", "Group");
 		engine.type("//input[@id='createLeadForm_firstName']", "6");
-		engine.type("//input[@id='createLeadForm_lastName']", "group6");
+		engine.type("//input[@id='createLeadForm_lastName']", "group7");
 		engine.type("//input[@id='createLeadForm_primaryEmail']", "group6@testleaf.com");
 		engine.click("//input[@name='submitButton']");
 		System.out.println(engine.getText("//span[@id='viewLead_companyName_sp']"));

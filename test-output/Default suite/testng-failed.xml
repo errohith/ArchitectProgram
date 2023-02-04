@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="launchBrowser.Browserinstanse">
+      <class name="patternwithretry.BridgeDesignPatternRetryTest">
         <methods>
-          <include name="multipleinstance"/>
+          <include name="seleniumRetryBridgeTest"/>
         </methods>
-      </class> <!-- launchBrowser.Browserinstanse -->
+      </class> <!-- patternwithretry.BridgeDesignPatternRetryTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
