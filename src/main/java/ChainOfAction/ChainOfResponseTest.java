@@ -1,6 +1,6 @@
 package ChainOfAction;
 
-public class ChainOfResponse {
+public class ChainOfResponseTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -10,7 +10,7 @@ public class ChainOfResponse {
 		
 		manager.setNextApproval(director);
 		director.setNextApproval(hr);
-		manager.process(2);
+		manager.process(10);
 		
 
 	}
