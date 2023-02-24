@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="patternwithretry.BridgeDesignPatternRetryTest">
+      <class name="assessment1retry2.RetryBrowserTest">
         <methods>
-          <include name="seleniumRetryBridgeTest"/>
+          <include name="afterSuite"/>
+          <include name="tearDown"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- patternwithretry.BridgeDesignPatternRetryTest -->
+      </class> <!-- assessment1retry2.RetryBrowserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

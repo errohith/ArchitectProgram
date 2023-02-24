@@ -1,5 +1,10 @@
 package launchBrowser;
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.NoSuchElementException;
+import java.util.Set;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -56,7 +61,12 @@ public class launchBrowser {
 		driver.findElement(By.className("decorativeSubmit")).click();
 		driver.findElement(By.linkText("CRM/SFA")).click();
 		driver.findElement(By.linkText("Create Lead")).isDisplayed();
+		Set<String> String1 = driver.getWindowHandles();
+		List<String> list = new ArrayList<>(String1);
+		list.addAll(list);
+		driver.switchTo().window(list.get(1));
 	}
+		
 	@AfterTest
 	public void closeBrowser() {
 		driver.close();
