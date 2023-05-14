@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assessment1retry2.RetryBrowserTest">
+      <class name="bridgeandfactorypatterrn.BridgeTest">
         <methods>
-          <include name="afterSuite"/>
-          <include name="tearDown"/>
-          <include name="test"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- assessment1retry2.RetryBrowserTest -->
+      </class> <!-- bridgeandfactorypatterrn.BridgeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
